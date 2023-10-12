@@ -120,13 +120,35 @@ nav a:hover {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
-/* Медиа-запрос для экранов шириной менее 768px */
+.footer-left,
+.footer-right {
+    flex: 1; 
+    text-align: center; 
+}
+
+.footer-right {
+    text-align: center; 
+}
+
+.footer-left {
+    flex: 1; 
+    text-align: center; 
+}
+
+.footer-left img {
+    width: auto; 
+    height: 40px; 
+}
+
+
 @media (max-width: 768px) {
     .banner-text {
         padding: 10px;
