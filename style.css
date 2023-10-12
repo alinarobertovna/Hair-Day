@@ -32,3 +32,60 @@ nav a {
 nav a:hover {
     color:darkgoldenrod;
 }
+
+.banner {
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+img {
+    border-radius: 5%;
+    max-width: 50%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
+}
+
+.promo-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    text-align: center;
+}
+
+.promo-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.promo-text p {
+    font-size: 24px;
+}
+
+.promo-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.promo-text ul li {
+    font-size: 18px;
+}
+
+.promo-text button {
+    background-color: #D0604C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+  
+
