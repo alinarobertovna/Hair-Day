@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edecf2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background: #444;
+    text-align: center;
+    padding: 25px 0; /* Уменьшаем верхний и нижний внутренний отступ */
+    height: auto;
+}
+
+nav a {
+    font-size: large;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+.banner-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.banner-text button {
+    background-color:#ff7f50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.banner-text button:hover {
+    color: #66545E;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Медиа-запрос для экранов шириной менее 768px */
+@media (max-width: 768px) {
+    .banner-text {
+        padding: 10px;
+    }
+
+    .banner-text h1 {
+        font-size: 24px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+    }
+}
